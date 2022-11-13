@@ -22,6 +22,7 @@
   "homepage": "https://github.com/MosesTheSweed/npm-lib-dero-api#readme",
   "devDependencies": {
     "@babel/core": "^7.20.2",
+    "@babel/preset-react": "^7.18.6",
     "@rollup/plugin-node-resolve": "^15.0.1",
     "babel-loader": "^9.1.0",
     "react": "^18.2.0",
