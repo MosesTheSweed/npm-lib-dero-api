@@ -1,0 +1,42 @@
+{
+  "name": "@mosesthesweed/react-dero-api",
+  "version": "0.1.0",
+  "description": "React context & hooks for using dero-rpc-bridge-api",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-lib": "rollup -c"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MosesTheSweed/npm-lib-dero-api.git"
+  },
+  "keywords": [
+    "dero"
+  ],
+  "author": "MosesTheSweed",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MosesTheSweed/npm-lib-dero-api/issues"
+  },
+  "homepage": "https://github.com/MosesTheSweed/npm-lib-dero-api#readme",
+  "devDependencies": {
+    "@babel/core": "^7.20.2",
+    "@rollup/plugin-node-resolve": "^15.0.1",
+    "babel-loader": "^9.1.0",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "rollup": "^2.79.1",
+    "rollup-plugin-babel": "^4.4.0",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-terser": "^7.0.2"
+  },
+  "peerDependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "dependencies": {
+    "await-to-js": "^3.0.0",
+    "dero-rpc-bridge-api": "^1.1.3"
+  }
+}
