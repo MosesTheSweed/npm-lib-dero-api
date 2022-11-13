@@ -1,7 +1,7 @@
 import {useCallback, useContext} from 'react';
-import {BridgeContext} from '/src/components/providers/bridgeRpcProvider.jsx';
+import {BridgeContext} from '../providers/bridgeRpcProvider.jsx';
 import to from 'await-to-js';
-import {ApiContext} from '/src/components/providers/apiResponseProvider.jsx';
+import {ApiContext} from '../providers/apiResponseProvider.jsx';
 
 /*
   Purpose: Returns all chain info
