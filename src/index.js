@@ -1,2 +1,1 @@
-export * from './components/hooks';
-export * from './components/providers';
+export * from './components';
