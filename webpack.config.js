@@ -5,7 +5,6 @@ module.exports = {
       "crypto": false
     }
   }
-
 }
 // If you want to include a polyfill, you need to:
 //   - add a fallback 'resolve.fallback: { "crypto": require.resolve("crypto-browserify") }'
